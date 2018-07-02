@@ -1,0 +1,421 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Condensed";
+        }
+        /*header*/
+        /*nawigacja*/
+        
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #header {
+            background-color: #87509c;
+            height: 100vh;
+        }
+        
+        #main_nav {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        #main_nav ul {
+            list-style: none;
+            text-transform: uppercase;
+            text-align: right;
+        }
+        
+        #main_nav ul li {
+            display: inline-block;
+            margin: 50px 5px 10px 0px;
+            font-weight: lighter;
+        }
+        
+        #main_nav ul li a {
+            text-decoration: none;
+            padding: 5px 10px;
+            color: #fff;
+        }
+        
+        #main_nav ul li a:hover {
+            background-color: #643a79;
+            border-radius: 5px;
+        }
+        
+        .head_container {
+            height: 100%;
+            padding: 200px;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            flex-basis: 100%;
+            color: #fff;
+        }
+        
+        h1 {
+            margin-bottom: 50px;
+            width: 100%;
+        }
+        
+        .head_container button {
+            box-shadow: 0px 3px #c86a40;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .head_container a {
+            display: inline-block;
+            padding: 20px 100px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #eb7d4b;
+            border-radius: 5px;
+        }
+        /*sekcja team*/
+        
+        #team {
+            height: 100%;
+            background-color: #e7f1f8;
+            color: #3c4761;
+        }
+        
+        ._container {
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        ._header {
+            text-align: center;
+            padding: 50px 50px 20px 50px;
+            text-transform: uppercase;
+        }
+        
+        ._header::after {
+            content: '';
+            display: block;
+            margin: 20px auto 0;
+            width: 10%;
+            border-bottom: 2px solid #c8d9e5;
+        }
+        
+        .subhead {
+            font-size: 36px;
+        }
+        
+        .team_photos {
+            margin-top: 40px;
+            margin-bottom: 70px;
+            justify-content: space-between;
+        }
+        
+        .photo {
+            flex-basis: 25%;
+        }
+        
+        .photo figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        }
+        
+        .photo figcaption,
+        .skill_heading {
+            margin-top: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        
+        .photo h4 {
+            font-weight: 300;
+            color: #64c6ea;
+            margin-bottom: 20px;
+        }
+        
+        .photo p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.5em;
+        }
+        
+        .img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .img img {
+            width: 100%;
+        }
+        
+        .social_media {
+            margin: 10px;
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+        }
+        
+        a .icon {
+            display: block;
+            color: white;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background-color: #bdd1df;
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+        
+        a .icon:hover {
+            color: #64c6ea;
+        }
+        
+        #skills {
+            height: 100%;
+            background-color: #fff;
+            color: #3c4761;
+            margin-bottom: 70px;
+        }
+        
+        #skills ._header::after {
+            border-color: #dfe8ed;
+        }
+        
+        .skills_container {
+            margin-top: 40px;
+            justify-content: space-between
+        }
+        
+        .wrap {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin-bottom: 40px;
+        }
+        
+        .circle1 {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: solid 15px;
+            border-color: #30bae7 transparent transparent transparent;
+            position: relative;
+            transform: rotate(45deg);
+            background-color: #dfe8ed;
+        }
+        
+        .circle2 {
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            border-radius: 50%;
+            border: solid 15px;
+            border-color: #30bae7 #30bae7 #30bae7 transparent;
+            transform: rotate(56deg);
+        }
+        
+        .circle3 {
+            height: 170px;
+            width: 170px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+        
+        .pink {
+            border-color: #d74680 transparent transparent transparent;
+        }
+        
+        .pink2 {
+            border-color: #d74680 #d74680 #d74680 transparent;
+            transform: rotate(0deg);
+        }
+        
+        .green {
+            border-color: #15c7a8 transparent transparent transparent;
+        }
+        
+        .green2 {
+            border-color: #15c7a8 #15c7a8 transparent transparent;
+            transform: rotate(72deg);
+        }
+        
+        .orange {
+            border-color: #eb7d4b transparent transparent transparent;
+        }
+        
+        .orange2 {
+            border-color: #eb7d4b #eb7d4b #eb7d4b transparent;
+            transform: rotate(36deg);
+        }
+        
+        .wrap p {
+            position: absolute;
+            line-height: 200px;
+            text-align: center;
+            width: 100%;
+            z-index: 1;
+            font-size: 50px;
+            font-weight: 100;
+        }
+        
+        .wrap p span {
+            font-size: 30px;
+        }
+        /*sekcja aboutus*/
+        
+        #aboutus {
+            height: 100%;
+            color: #fff;
+            background-color: #d74680;
+        }
+        
+        #aboutus ._header::after {
+            border-color: #b73c6d;
+        }
+        
+        .aboutuscontainer {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 40px 0 70px 0;
+        }
+        
+        .aboutcols {
+            flex-basis: 50%;
+            display: flex;
+        }
+        
+        .aboutcol1 {
+            flex-basis: 20%;
+        }
+        
+        .aboutcol2 {
+            flex-basis: 80%;
+            text-align: left;
+            padding: 5px 60px 0 20px;
+        }
+        
+        .aboutcol2 blockquote {
+            /*            padding: 25px 20px 25px 10px;*/
+            margin-bottom: 30px;
+            font-weight: 100;
+            font-style: italic;
+        }
+        
+        .aboutcol2 h3 {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        
+        .aboutcol2 h4 {
+            font-weight: 300;
+            color: #ffdd99;
+        }
+        
+        .qimg {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 100px
+        }
+        
+        .qimg img {
+            width: 100%;
+        }
+        
+        .quote {
+            margin-bottom: 90px;
+        }
+        /*sekcja kontakt*/
+        
+        #contact {
+            color: white;
+            background-color: #3c5499;
+        }
+        
+        #contact ._header::after {
+            border-color: #273a71;
+        }
+        
+        #contact p {
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        
+        .formcontainer {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        input[type="text"],
+        input[type="mail"] {
+            display: inline-block;
+            width: 49%;
+            padding: 10px;
+            background-color: #273a71;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .cc {
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        
+        textarea {
+            margin: 5px auto;
+            width: 100%;
+            padding: 10px;
+            background-color: #273a71;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            display: inline-block;
+            padding: 20px 100px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #30bae7;
+            border-radius: 5px;
+            box-shadow: 0px 3px #299ec5;
+            margin-bottom: 70px;
+            border: none;
+        }
+        
+        input[type="submit"]:hover {
+            box-shadow: 0px 5px #299ec5;
+            cursor: pointer;
+        }
+        
+        #footer {
+            background-color: #344b8e;
+            height: 100%;
+        }
+        
+        ul {
+            list-style: none;
+            justify-content: center;
+        }
+        
+        .footerlist li a {
+            padding: 20px;
+            color: #fff;
+            float: left;
+            text-decoration: none;
+            margin: 10px 0px;
+        }
+        
+        .footerlist li a:hover {
+            color: #30bae7;
+        }

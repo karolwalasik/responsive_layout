@@ -1,0 +1,47 @@
+    @media all and (max-width: 1300px) {
+    .photo {
+        flex-basis: 50%;
+    }
+    .skills_container {
+        margin: 0px;
+        display: block;
+    }
+    .wrap {
+        display: inline-block;
+        margin: 20px 65px;
+    }
+    @media all and (max-width: 992px) {
+        .team_photos {
+            align-content: center;
+            justify-content: center;
+        }
+        .aboutcols {
+            flex-basis: 100%;
+        }
+        .aboutcol2 {
+            padding: padding: 0x 60px 0 10px;
+        }
+    }
+    @media all and (max-width: 768px) {
+        .team_photos {
+            align-content: center;
+            justify-content: center;
+        }
+        .photo {
+            flex-basis: 100%;
+        }
+        .skills_container {
+            margin: 0px;
+            display: block;
+        }
+        .wrap {
+            display: inline-block;
+            margin: 100px;
+        }
+        .footerlist li a {
+            padding: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 50px;
+        }
+    }
